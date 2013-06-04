@@ -1,0 +1,18 @@
+{
+  "name": "mongoose-construct",
+  "version": "0.0.1",
+  "description": "Adds a 'construct' hook to mongoose models. Similiar to the init hook but called even for new objects, not just objects returned by the database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "mongoose"
+    , "hooks"
+    , "construct"
+    , "init"
+  ],
+  "author": "Christopher Tarquini",
+  "license": "BSD"
+}

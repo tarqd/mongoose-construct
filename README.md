@@ -14,8 +14,9 @@ var mongoose = require('mongoose')
 var user = new Schema({})
 user.plugin(construct)
 
-user.post('construct', function(){
+user.pre('construct', function(next){
 	console.log('Constructor called...')
+	next()
 })
 
 var User = mongoose.model('User', user)
